@@ -28,13 +28,11 @@ X=data_frame.iloc[:,0:13] #features
 
 #scaling os dados 
 feature_scaler = StandardScaler()  
-#X=feature_scaler.fit_transform(X.astype(float))  
+X=feature_scaler.fit_transform(X.astype(float))  
 
 #separando dados de Teste e de Treino
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.3,random_state=42)
 
-X_train=feature_scaler.fit_transform(X_train.astype(float))  
-X_teste=feature_scaler.transform((X_test.astype(float)) ) 
 #Treinando Algoritmo utilizando Support Vector Machines e Grid Search para otimizar parametros 
 clf = SVC(random_state=42)
 parameters = {'kernel':('linear', 'rbf','poly'), 'C':(1,0.25,0.5,0.75),'gamma': (1,2,3,'auto'),'decision_function_shape':('ovo','ovr'),'shrinking':(True,False)}

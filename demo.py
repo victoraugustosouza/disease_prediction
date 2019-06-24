@@ -11,16 +11,18 @@ from joblib import dump, load
 clf = load('filename.joblib') 
 
 entradas=[]
-var =input("Please enter something: ")
-while(var != 'exit'):
+print("Digite o valor das features na mesma ordem do dataset disponibilizado utilizando espaçõs como separador e aperte enter. Quando terminar digite 'sair'. \n ")
+var =input("Digite o valor das features: ")
+while(var != 'sair'):
     
-    var=var.split(' ')
+    var=var.split(',')
+    
     for i in range(len(var)):
         if var[i]==' ':
             var.remove(' ')
-        else:
+        else:          
             var[i]=float(var[i])
     entradas.append(var)
-    var =input("Please enter something: ")
+    var =input("Digite o valor das features: ")
 
 print(clf.predict(entradas))

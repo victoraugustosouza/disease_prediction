@@ -16,7 +16,7 @@ Requerimentos:
 
 -   O arquivo demo.py deve ser utilizados para testes, ele carregará o modelo e solicitará a entrada das valores das features. As features     devem ser inseridas utilizando espaço como separador e na mesma ordem do dataset produzido. Quando terminar de introduzir as features digite 'sair' e o programa dará a predição e terminará.
 
-**Processo de Dsenvolvimento:** <br/>
+**Processo de Desenvolvimento:** <br/>
  O primeiro passo foi fazer o pré-processamento dos dados.</br> Carreguei os dados e procurei ver se haviam valores faltando(ou seja,nulos). Após isso,escolhi o modelo de aprendizagem supervisionada Support Vector Machine(SVM) para ser treinado.
 Fiz data scaling nos dados visto que os valores grandes dominariam os pequenos,em especial no caso do algoritmo Support Vector Machine, e por ultimo separei os conjuntos de teste(30%) e treino(70%).<br/>
 

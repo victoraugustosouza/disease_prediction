@@ -2,10 +2,11 @@
 # disease_prediction
 Bulding a prediction model that can predict the presence of a disease in the patient through the dataset provided using SciKit-Learn
 
-Requerimentos
+** Requerimentos: **
 
 - Python 3.7 <br />
-- DataSet disponibilizado na mesma pasta que os códigos.<br />
+- DataSet disponibilizado na mesma pasta que os códigos.
+<br />
 **Bibliotecas para Python:**
 - Numpy
 - Pandas

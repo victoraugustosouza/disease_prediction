@@ -14,7 +14,7 @@ Requerimentos:
 **Como executar o código:**
 -   Executar training.py normalmente, ele salvará o modelo treinado como modelo_treinado_salvo.joblib na mesma pasta.
 
--   O arquivo demo.py deve ser utilizados para testes, ele carregará o modelo e solicitará a entrada das valores das features. As features     devem ser inseridas utilizando espaço como separador e na mesma ordem do dataset produzido. Quando terminar de introduzir as features digite 'sair' e o programa dará a predição e terminará.
+-   O arquivo demo.py deve ser utilizados para testes, ele carregará o modelo e solicitará a entrada das valores das features. As features     devem ser inseridas utilizando virgula como separador e na mesma ordem do dataset produzido. Quando terminar de introduzir as features digite 'sair' e o programa dará a predição e terminará.
 
 **Processo de Desenvolvimento:** <br/>
  O primeiro passo foi fazer o pré-processamento dos dados.</br> Carreguei os dados e procurei ver se haviam valores faltando(ou seja,nulos). Após isso,escolhi o modelo de aprendizagem supervisionada Support Vector Machine(SVM) para ser treinado.

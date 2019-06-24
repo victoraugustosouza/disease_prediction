@@ -20,4 +20,4 @@ Requerimentos:
  O primeiro passo foi fazer o pré-processamento dos dados.</br> Carreguei os dados e procurei ver se haviam valores faltando(ou seja,nulos). Após isso,escolhi o modelo de aprendizagem supervisionada Support Vector Machine(SVM) para ser treinado.
 Fiz data scaling nos dados visto que os valores grandes dominariam os pequenos,em especial no caso do algoritmo Support Vector Machine, e por ultimo separei os conjuntos de teste(30%) e treino(70%).<br/>
 
-Na fase de treino utilizei GridSearch para otimizar parametrôs e 10-Fold Cross Validation para treinar o modelo SVM. Com o algotimo já treinado, utilizei o mesmo para prever os resultados do conjunto de teste, useu a acuracia(número de acertos/total de amostras) como medidor de performance do modelo.
+Na fase de treino utilizei GridSearch para otimizar parametrôs e 10-Fold Cross Validation para treinar o modelo SVM. Com o algotimo já treinado, utilizei o mesmo para prever os resultados do conjunto de teste usando a acurácia(número de acertos/total de amostras) como medidor de performance do modelo.

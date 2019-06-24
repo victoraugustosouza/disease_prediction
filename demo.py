@@ -11,7 +11,7 @@ from joblib import dump, load
 clf = load('filename.joblib') 
 
 entradas=[]
-print("Digite o valor das features na mesma ordem do dataset disponibilizado utilizando espaçõs como separador e aperte enter. Quando terminar digite 'sair'. \n ")
+print("Digite o valor das features na mesma ordem do dataset disponibilizado utilizando virgula como separador e aperte enter. Quando terminar digite 'sair'. \n ")
 var =input("Digite o valor das features: ")
 while(var != 'sair'):
     

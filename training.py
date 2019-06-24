@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import GridSearchCV
 from joblib import dump, load
-
+#Modelo utilizado: Suporte Vector Machine
 #Pré-processamento de dados
 
 #carregamento dos dados
